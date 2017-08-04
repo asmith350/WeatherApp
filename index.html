@@ -1,14 +1,47 @@
 <html>	
 	<head>
-		<Title>Weather App Testing</Title>
+		<Title>Weather Forecast App</Title>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="weatherapp.js"></script>
 	</head>
 	<body>
-		<div align="center "style="color:#0000FF">
-			<h3> Five Day Forcast</h3>
-			<p> This will show the forcast for the next 5 days. </p>
+		<div id="container" align="center">
+			<div>
+				<h3 class="titletext"> Five Day Forcast </h3>
+			</div>
+			
+			<div id="daycontainer">
+				<div id="day1" class="days">
+					<div class="dayofweek">
+						<h4> Monday </h4>
+					</div>
+					<div class="location">
+						<h5> Location, US </h5>
+					</div>
+					<div class="icon">
+					
+					</div>
+					<div class="temp">
+						<h1> 23&#8457; </h1> <!-- &#8457 = F  &#8451 = C -->
+					</div>
+				</div> <!-- end of day1 div -->
+				<div id="day2" class="days">
+					<h4 class="dayofweek"> Tuesday </h4>
+				</div> <!-- end of day2 div -->
+				<div id="day3" class="days">
+					<h4 class="dayofweek"> Wednesday </h4>
+				</div> <!-- end of day3 div -->
+				<div id="day4" class="days">
+					<h4 class="dayofweek"> Thursday </h4>
+				</div> <!-- end of day4 div -->
+				<div id="day5" class="days">
+					<h4 class="dayofweek"> Friday </h4>
+				</div> <!-- end of day5 div -->
+			</div>
 		</div>
+		
 	
 	</body>
 </html>
