@@ -1,40 +1,61 @@
  body {
-	 background: linear-gradient(aqua, blue);
+	 /*background: url("Images/purplelightning.jpg");
+	 background-size: auto;
+	 background: linear-gradient(aqua, blue); */
 	 color: black;
  }
- .titletext {
-	 font-family: 'Exo 2', serif;
-	 
-	 font-size: 64px;
-	 position: relative;
-	 top: 50px;
+ .backgroundimage{
+	position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+ }
+ .make-it-fit {
+	max-width: 99%;
+    max-height: 99%; 
  }
  .days{
 	position: relative;
-	top: 200px;
+	top: 250px;
 	font-family: 'Exo 2', serif; 
 	border: 2px solid black;
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px #111111;
 	height: 350px;
+	
  }
- #zipcontainer {
+ .dayofweek {
+	 margin: 5px auto auto auto;
+	 background: linear-gradient(rgba(22, 252, 38, 0.75), rgba(14, 160, 24, 0.75)); 
+	/* border-bottom: 3px solid rgba(81, 90, 104,0.5); */
+	 border-radius: 5px;
+	 box-shadow: 2px 1px 5px #515a68;
+	 height: 50px;
+	 width: 95%
+ }
+ .dayofweek h4 {
+	position: relative;
+	top: -10px;
+	margin:auto;
+    line-height:51px;
+    vertical-align:middle;
+ }
+ .dayofweek h5 {
+	margin: auto;
+	position: relative;
+	top: -25px;
+ }
+ .temp{
 	 position: relative;
-	 top: 50px;
-	 
+	 top: 225px;
+	 left: -55px;
  }
- #zipcode {
-	 width: 20%;
-	 height: 35px;
-	 border: 1px solid black;
-	 border-radius:  5px;
+ .titletext {
+	 font-family: 'Exo 2', serif;
+	 font-size: 64px;
 	 
-	 
- }
- #zipbtn {
-	 border: 1px solid black;
-	 border-radius:  5px;
-	 height: 35px;
  }
   
  #daycontainer {
@@ -65,5 +86,26 @@
 	left: 1075px;
 	width: 15%;
  }
+ #titlecontainer{
+	position: absolute;
+	top: 50px; 
+	left: 425px;
+ }
+ #zipbtn {
+	 border: 1px solid black;
+	 border-radius:  5px;
+	 height: 35px;
+ }
+ #zipcontainer {
+	 position: relative;
+	 
+ }
+ #zipcode {
+	 width: 350px;
+	 height: 35px;
+	 border: 1px solid black;
+	 border-radius:  5px; 
+ }
+ 
  
  
